@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-color: #FCFAEE;
+    height: 100%;
+    transition: background-color 0.3s ease;
+    padding: 3%;
+    overflow: hidden;
+}
+
+.container1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+
+.container2 {
+    display: flex;
+    width: 60%;
+}
+
+.ull-container {
+    align-self: center;
+    justify-self: flex-start;
+    width: fit-content;
+}
+
+.ull-container :hover {
+    color: #FCFAEE;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.ull-container a :hover {
+    color: #FCFAEE;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.topic-container {
+    align-self: center;
+    justify-self: flex-start;
+    width: fit-content;
+    height: 13em;
+}
+
+.ull-container a {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15em;
+    color: #3C3D37;
+    text-decoration: none;
+}
+
+#lamb {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 5em;
+    color: #3C3D37;
+}
+
+.img {
+    display: flex;
+    justify-self: center;
+    align-self: center; 
+    margin-right: 5em;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 25px;
+}
+
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.bottom-right {
+    align-self: center;
+    justify-self: flex-start;
+    height: auto;
+    width: fit-content;
+}
+
+.br {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 1.5em;
+    color: #3C3D37;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}

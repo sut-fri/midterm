@@ -1,0 +1,145 @@
+/*red=#A02334
+cream=#FCFAEE
+gray=#3C3D37*/
+
+body {
+    padding: 3%;
+    overflow: hidden;
+    background: url(images/knit.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.dropbtn {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 25vw;
+    color: #3C3D37;
+    text-decoration: none;
+    width: 50vw;
+    border: solid #3C3D37 10px;
+    text-align: left;
+    background-color: #FCFAEE;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.child-left {
+    width: fit-content;
+    justify-content: flex-start;
+    justify-content: space-between;
+}  
+
+.child-right {
+    transition: transform .5s ease-in-out;
+    width: fit-content;
+    justify-content: flex-start;
+    justify-content: space-between;
+    font-size: 25%;
+    margin-right: 5%;
+}  
+
+.dropdown:hover .child-right {
+  transform: rotate(-90deg);
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+    width: 50vw;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.info {
+    justify-content: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 5px;
+    background-color: #FCFAEE;
+    color: #3C3D37;
+    border: solid #3C3D37 5px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 5vw;
+}
+
+.info:hover a {
+    color: #FCFAEE;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.info-bottom {
+    justify-content: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 5px;
+    background-color: #FCFAEE;
+    color: #3C3D37;
+    border: solid #3C3D37 5px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 5vw;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.info-bottom:hover a {
+    color: #FCFAEE;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #3C3D37;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #FCFAEE;
+    background-color: transparent;
+}
+
+.dropdown :hover {
+    border-color: #FCFAEE;
+    background-color: #A02334;
+    color: #FCFAEE;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.dropbtn :hover {
+    background-color: transparent;
+    color: #FCFAEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+img {
+    width: 33vw;
+    justify-self: center;
+    align-self: center;
+    border: solid #3C3D37 10px;
+    border-radius: 25px;
+    background-color: #FCFAEE;
+}
+
+#home-image {
+        justify-self: center;
+    align-self: center;
+    border: solid #3C3D37 10px;
+    border-radius: 25px;
+    background-color: #FCFAEE;
+}
