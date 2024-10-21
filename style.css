@@ -5,10 +5,11 @@ gray=#3C3D37*/
 body {
     padding: 3%;
     overflow: hidden;
-    background: url("knit.jpg");
+/*     background: url("knit.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
+/*     for some reason my background img does not display when I code it with my css */
 }
 
 .dropbtn {
