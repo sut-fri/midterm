@@ -1,11 +1,11 @@
-/*red=#A02334
+/*red=#x
 cream=#FCFAEE
 gray=#3C3D37*/
 
 body {
     padding: 3%;
     overflow: hidden;
-    background: url(knit.JPG);
+    background: url("knit.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -44,6 +44,7 @@ body {
 
 .dropdown:hover .child-right {
   transform: rotate(-90deg);
+  cursor: s-resize;
 }
 
 .dropdown {
@@ -74,6 +75,7 @@ body {
     color: #FCFAEE;
     text-decoration: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .info-bottom {
@@ -94,6 +96,7 @@ body {
     color: #FCFAEE;
     text-decoration: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .dropdown-content a {
@@ -106,6 +109,7 @@ body {
     display: block;
     color: #FCFAEE;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .dropdown :hover {
@@ -114,6 +118,7 @@ body {
     color: #FCFAEE;
     cursor: pointer;
     transition: all .3s ease;
+    cursor: s-resize;
 }
 
 .dropbtn :hover {
@@ -128,6 +133,7 @@ body {
 }
 
 img {
+    display: block;
     width: 33vw;
     justify-self: center;
     align-self: center;
@@ -136,10 +142,28 @@ img {
     background-color: #FCFAEE;
 }
 
-#home-image {
-        justify-self: center;
+#image-container {
+    display: block;
+/*    position: fixed;*/
+    justify-self: center;
     align-self: center;
-    border: solid #3C3D37 10px;
     border-radius: 25px;
-    background-color: #FCFAEE;
+    background-color: #A02334;
+/*    border: solid #3C3D37 10px;*/
+/*    fade img, keep bg red*/
+}
+
+img :hover {
+/*    opacity: 70%;*/
+    transition: opacity 0.3s;
+}
+
+#image-container:hover img {
+/*    opacity: 70%;*/
+    transition: opacity 0.3s;
+}
+
+#image-container :hover{
+    border-color: #FCFAEE;
+/*    border-opacity: 100%;*/
 }
