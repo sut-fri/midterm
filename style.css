@@ -1,6 +1,6 @@
 body {
     padding: 3%;
-    overflow: hidden;
+    overflow-x: hidden;
     background: url(knit.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
