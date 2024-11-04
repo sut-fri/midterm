@@ -8,7 +8,7 @@ body {
     height: 100%;
     transition: background-color 0.3s ease;
     padding: 3%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container1 {
